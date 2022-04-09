@@ -1,3 +1,6 @@
 "use strict";
-let hello = 'hello';
-console.log(hello.toUpperCase());
+function echo(message) {
+    return message;
+}
+let implicitAny;
+implicitAny = 'implicitAny';

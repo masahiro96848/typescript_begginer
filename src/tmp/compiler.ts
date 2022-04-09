@@ -1,2 +1,6 @@
-let hello = 'hello';
-console.log(hello.toUpperCase());
+function echo(message: string) {
+    return message;
+}
+let implicitAny;
+implicitAny = 'implicitAny'
+
